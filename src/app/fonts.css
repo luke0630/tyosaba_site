@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'corporate';
+    src: url("./fonts/Corporate-Logo-Bold-ver3.ttf");
+}
+@font-face {
+    font-family: 'honoka';
+    src: url("./fonts/Honoka-Shin-Maru-Gothic_R.ttf");
+}
+@font-face {
+    font-family: 'tsunagi';
+    src: url("./fonts/TsunagiGothic.ttf");
+}
+@font-face {
+    font-family: 'kamimono';
+    src: url("./fonts/KamimonoGothic-B_ver.2.1.otf");
+}
+@font-face {
+    font-family: 'mobo';
+    src: url("./fonts/MOBO-Bold.otf");
+}

@@ -1,0 +1,88 @@
+div.body {
+    color: white;
+    font-family: 'corporate';
+
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+
+.body .Top {
+    padding: 0;
+    width: 100%;
+}
+
+.body .Top .logo {
+    margin-top: 20px;
+    width: 370px;
+}
+
+.body .Top .rainbow_text h1 {
+    font-size: 130px;
+    margin: 0;
+}
+
+.body .Top .rainbow_text {
+    margin-top: -20px;
+    background: linear-gradient(to right,#ff6f6b,#e1ff6b,#6bff89,#2e2cd7,#ff6f6b) 0 / 4000%;
+    animation: 6s rainbow linear infinite;
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.body .Top .logo_under {
+    background-color: white;
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 600px;
+    display: flex;
+}
+
+.body .Top .logo_under h1 {
+    font-size: 42px;
+    margin: auto;
+    color: black;
+}
+
+.button_join_server {
+    margin: 0 auto;
+    font-size: 22px;
+    border-radius: 32px;
+    width: fit-content;
+    background-color: rgb(30, 105, 216);
+    font-family: "honoka";
+}
+.button_join_server a {
+    color: none;
+    text-decoration: none;
+}
+.button_join_server h1 {
+    color: white;
+    padding: 22px;
+}
+
+@keyframes rainbow {
+    100% { background-position: 200%; }
+}
+@media screen and (max-width: 700px) {
+    .button_join_server {
+        font-size: 4vw;
+    }
+    .body .Top .logo {
+        width: 230px;
+    }    
+    .body .Top .rainbow_text h1 {
+        font-size: 80px;
+        margin: 0;
+    }
+    .body .Top .logo_under {
+        margin-top: -10px;
+        width: 90%;
+    }
+    .body .Top .logo_under h1 {
+        font-size: 32px;
+    }
+}

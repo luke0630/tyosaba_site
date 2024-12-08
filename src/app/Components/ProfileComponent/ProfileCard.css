@@ -1,0 +1,111 @@
+.profile_card {
+    margin: 10px;
+    background-color: #141414;
+    width: 400px;
+    border-radius: 22px;
+    height: 600px;
+    border: 4px solid #ffffff;
+    overflow: hidden;
+    align-items: center;
+
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    border-radius: 22px;
+}
+
+.profile_card .icon {
+    height: auto;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 22px;
+}
+
+.profile {
+    color: white;
+    height: fit-content;
+    position: relative;
+    font-family: "corporate";
+    width: 100%;
+    text-align: center;
+}
+.profile h1{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 2.3rem;
+}
+
+.profile .sns {
+    margin: 0 auto;
+}
+
+
+
+.profile .sns img {
+    margin: 5px;
+}
+
+.role-icons {
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.role-icon {
+    margin: 10px;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 8px;
+    width: fit-content;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.role-icon.Admin {
+    background-color: rgb(244, 56, 56);
+}
+.role-icon.Manager {
+    background-color: #0689d4;
+}
+
+.profile .description {
+    margin: 0;
+    font-size: 200%;
+}
+
+.description {
+    font-family: "honoka";
+}
+
+@media screen and (max-width: 530px) {
+    .profile_card {
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+        border-radius: 22px;
+        height: fit-content;
+        width: 70%;
+    }
+
+    .profile {
+        margin: 0 auto;
+    }
+    .profile h1 {
+        font-size: 1.4rem;
+    }
+
+    .profile .sns {
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .profile_card .icon {
+        height: auto;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 15px;
+        border-radius: 22px;
+    }    
+}

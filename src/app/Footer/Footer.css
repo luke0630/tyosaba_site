@@ -1,0 +1,49 @@
+footer {
+    right: 0;
+    left: 0;
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    font-family: 'honoka';
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0; 
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer .container p {
+    margin: 2px;
+}
+
+.footer a {
+    color: rgb(107, 193, 255);
+    text-decoration: underline;
+}
+
+.footer-links .discord {
+    width: 40px;
+}
+
+.footer-links .x {
+    width: 30px;
+}
+
+.footer-links .youtube {
+    width: 45px;
+}
+
+.footer-links .github {
+    margin-top: -3px;
+    width: 37px;
+}

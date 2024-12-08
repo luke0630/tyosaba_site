@@ -1,0 +1,46 @@
+html {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d1d1d;
+    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+
+.loading {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: #1d1d1d;
+    opacity: 1;
+    transition: 500ms all linear;
+    z-index: 200;
+}
+.loading.end {
+    pointer-events: none;
+    opacity: 0;
+}
+
+.enableJS h1{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: "mobo";
+    color: white;
+}

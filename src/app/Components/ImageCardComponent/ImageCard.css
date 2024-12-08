@@ -1,0 +1,128 @@
+.card {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+}
+.card .guid {
+    width: 50%;
+}
+.card .guid2 {
+    width: 50%;
+}
+.card .guid2 .content {
+    margin-top: 52px;
+    margin-left: 32px;
+    height: 100%;
+    width: 660px;
+    float: left;
+}
+.card .guid2 .description {
+    margin: 0;
+}
+.card .guid2 .content .title {
+    margin: 0;
+    padding: 0;
+    font-size: 69px;
+}
+.card .guid2 .content .description {
+    font-family: 'honoka';
+    font-size: 40px;
+}
+
+
+.title_underline {
+    background-color: white;
+    width: 100%;
+    height: 6px;
+}
+.card img {
+    width: 800px;
+    height: auto;
+}
+
+
+.left.card img {
+    border-radius: 22px 100px;
+    margin-right: 32px;
+    float: right;
+}
+.right.card img {
+    border-radius: 100px 22px;
+    margin-left: 32px;
+    float: left;
+}
+.right.card .guid2 .content {
+    float: right;
+    margin-right: 32px;
+}
+.left.card .guid {
+    order: 0;
+}
+.right.card .guid {
+    order: 1;
+}
+
+@media screen and (max-width: 1757px) {
+    .card img {
+        width: 90%;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 1490px) {
+    .card {
+        flex-direction: column;
+    }
+    .left.card .guid {
+        width: 100%;
+        order: 0;
+    }
+    .left.card .guid img {
+        border-radius: 0px 0px;
+        float: none;
+        margin: 0 auto;
+    }
+    .left.card .content {
+        margin: 0;
+    }
+    .left.card .guid2 {
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .right.card .guid {
+        width: 100%;
+        order: 0;
+    }
+    .right.card .guid img {
+        border-radius: 0px 0px;
+        float: none;
+        margin: 0 auto;
+    }
+    .right.card .content {
+        margin: 0;
+    }
+    .right.card .guid2 {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card .guid2 .content {
+        width: 100%;
+    }
+    .card .guid2 .content .title {
+        font-size: 46px;
+    }
+    .card .guid2 .content .description {
+        font-size: 22px;
+    }
+    .card img {
+        width: 90%;
+        border: 4px solid white;
+    }
+    .card.right .guid2 .content {
+        margin: 0;
+    }
+}

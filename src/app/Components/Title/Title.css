@@ -1,0 +1,16 @@
+
+.title {
+    color: white;
+    font-family: "mobo";
+    font-size: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+    .title {
+        width: 100%;
+        height: auto;
+        font-size: 20vw;
+    }
+}

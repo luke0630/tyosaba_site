@@ -1,0 +1,12 @@
+.page_description h2{
+    font-family: "honoka";
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+@media screen and (max-width: 700px) {
+    .page_description {
+        font-size: 5vw;
+    }
+}
